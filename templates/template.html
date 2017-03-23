@@ -1,0 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl"> 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" href="/static/style.css" />
+<title>Pijemy!™ by TastyCode.pl</title>
+</head>
+<body>
+<div class="wrapper">
+<h1>Pijemy!</h1>
+<h2>...bo każdy powód jest dobry!</h2>
+
+<div class="l1">w <span>{{ entry[1] }}</span> roku</div>
+<div class="l2">{{ entry|render_event }}</div>
+<div class="ft">brought to you by <b><a href="http://tastycode.pl">tastycode.pl</a></b>,<br />crafted using best bits of  <b><a href="http://python.org/">Python</a></b>, <b><a href="http://flask.pocoo.org/">Flask</a></b> and <b><a href="http://wikipedia.org/">Wikipedia</a></b>.<br />~<br /><b>dostępnych wydarzeń:</b> {{ count }} <small>(dla dnia dzisiejszego)</small></div>
+</div>
+</body>
+</html>
